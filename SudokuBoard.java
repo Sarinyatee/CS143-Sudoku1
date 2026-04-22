@@ -12,7 +12,7 @@ public class SudokuBoard {
       this();
       try {
         Scanner console = new Scanner(new File(fileName));
-        for(int r = 0; r < board[0].length; r++){
+        for(int r = 0; r < board[r].length; r++){
             if(console.hasNext()) {
             String line = console.next();
             for(int c = 0; c < board[0].length; c++) {
